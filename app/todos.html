@@ -1,0 +1,14 @@
+Search: <input type="text" ng-model="search.name">
+<ul>
+  <li ng-repeat="todo in todos | filter : search">
+    <input type="checkbox" ng-model="todo.completed"/>
+    <a href="{{$index}}">{{todo.name}}</a>
+  </li>
+</ul>
+<textarea
+    ng-model="text"
+    name="textarea" rows="5" cols="20">
+      Hey ho let's go!
+  </textarea>
+<button ng-click="valider(text)">Valider</button>
+{{msg}}

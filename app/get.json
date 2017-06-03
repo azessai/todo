@@ -1,0 +1,4 @@
+[
+    { "name": "Master HTML/CSS/Javascript", "completed": true, "note": "Jnote A" },
+    { "name": "Learn AngularJS", "completed": false, "note": "Jnote B" }
+]
